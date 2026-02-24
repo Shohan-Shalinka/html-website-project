@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="styles.css" type="text/css" rel="stylesheet"/>
+<meta charset="utf-8" />
+<title>Sehenswürdigkeiten</title>
+</head>
+<body>
+	<script>
+		window.onload = () => {
+		  const target = document.querySelector(window.location.hash);
+		  if (target) {
+			target.scrollIntoView({
+			  behavior: "smooth",
+			  block: "center",
+			});
+		  }
+		};
+	</script>
+	<style>
+		.imgrow {
+		  display: flex;
+		}
+		.imgcolumn {
+		  flex:30%;
+		  padding: 0px;
+		}
+		.pcolumn {
+		  flex:100%;
+		}
+	  </style>
+    <div class="index">
+		<b><table width="100%" style="font-size: 30px; color: white;">
+			<tr align="center">
+				<td><a href="informationen.html">Informationen</a></td>
+				<td><a href="kultur.html">Kultur</a></td>
+				<td><a href="aktivitäten.html">Aktivitäten</a></td>
+				<td><a href="hotels.html">Hotels</a></td>
+				<td><a href="index.html">Home</a></td>
+				<td><a href="zubeachten.html">Zu beachten</a></td>
+				<td><a href="impressum.html">Impressum</a></td>
+			</tr>
+		</table></b>
+	</div>
+	<hr size="10" color="#C8102E">
+   <h1>Sehenswürdigkeiten</h1>
+
+   <div class="imgrow">
+	<div class="pcolumn">
+   <h2><a href="https://www.english-heritage.org.uk/visit/places/stonehenge/" target="_blank">Stonehenge</a></h2>
+	   <p><dfn>Ein mysteriöses prähistorisches Monument, das zu den bekanntesten Wahrzeichen Englands gehört.</dfn></p>
+	   <p>Stonehenge wurde vor über 5.000 Jahren errichtet. Die Steine, die mehrere Kreise bilden, wurden zu verschiedenen Zeiten an den Ort gebracht. 
+	   Die Anordnung der Steine ermöglicht es, das die Sonne während der Sommersonnenwende durch ein Steinernes "Fenster" aufgeht. Stonehenge befindet sich in
+	   der englischen Grafschaft Wiltshire, ca. 145km westlich von London. </p>
+	</div>
+	<div class="imgcolumn">
+		<img style="width: 100%;" src="grafiken/Stonehenge.jpg" alt="Stonehenge" width="250" height="200">
+	</div>
+   </div>  
+
+<div class="imgrow">
+	<div class="imgcolumn">
+		<img style="width: 100%;" src="grafiken/Tower of London.jpg" alt="Tower" width="250" height="200">
+	</div>
+	<div class="pcolumn">
+		<h2 align="right" id="tower1"><a href="https://www.hrp.org.uk/tower-of-london/?utm_medium=performance_max&utm_source=google&utm_campaign=evergreen_tol&gad_source=1&gad_campaignid=19978210492&gclid=EAIaIQobChMIy-PepaiTjQMVDpODBx3hIQ6cEAAYASAAEgKd1fD_BwE#gs.m4s0sa" target="_blank">Tower of London</a></h2>
+	   <p align="right"><dfn>Ein historisches Schloss in London, das für seine Geschichte als königliches Gefängnis und Schatzkammer berühmt ist.</dfn></p>
+	   <p align="right">Der Tower of London ist bekannt für seine reiche Geschichte, kulturelle Bedeutung, unverwechselbare Architektur und die Kronjuwelen. 
+	   Er diente im Laufe seiner Geschichte als königlicher Palast, Gefängnis und Hinrichtungsstätte und wird mit berühmten historischen Figuren und Mythen in Verbindung gebracht.
+	   Das Londoner Schloss befindet sich am Nordufer der Themse im Londoner Stadtbezirk Tower Hamlets.</p>
+	</div>
+</div>   
+
+   <div class="imgrow">
+	<div class="pcolumn">
+		<h2 id="palace1"><a href="https://www.rct.uk/visit/buckingham-palace?gad_source=1&gad_campaignid=20373101202&gclid=EAIaIQobChMI9cuutaiTjQMVG7CDBx2WoQjvEAAYASAAEgJUL_D_BwE" target="_blank">Buckingham Palace</a></h2>
+		<p><dfn>Die offizielle Residenz der britischen Monarchie, bekannt für den Wachwechsel und seine königlichen Gärten.</dfn></p>
+		<p>Das Gebäude im Stadtbezirk City of Westminster dient auch offiziellen Staatsanlässen. 
+		So werden dort ausländische Staatsoberhäupter bei ihrem Besuch in Großbritannien empfangen.
+		Der Buckingham Palace war der Geburtsort von King Charles III. Er ist auch der größte private Garten der Welt. 
+		Die Besichtigung der königlichen Residenz ist begehrt. Wer den Buckingham Palace von innen sehen möchte, muss schnell sein. 
+		Schließlich ist der Zutritt nur während einiger Sommerwochen im Jahr möglich – das Ticketkontingent ist entsprechend beschränkt. 
+		Es empfiehlt sich, die Tickets also so bald wie möglich zu buchen.</p>
+ 
+	</div>
+	<div class="imgcolumn">
+		<img style="width: 100%;" src="grafiken/Buckingham Palace.jpg" alt="Palace" width="250" height="200">
+	</div>
+</div>
+
+<div class="imgrow">
+	<div class="imgcolumn">
+		<img style="width: 100%;" src="grafiken/Big Ben.jpg" alt="Ben" width="250" height="200">
+	</div>
+	<div class="pcolumn">
+		<h2 align="right" id="bigben"><a href="https://www.visitlondon.com/de/sehen-und-erleben/ort/35656312-big-ben" target="_blank">Big Ben</a></h2>
+		<p align="right"><dfn>Big Ben ist eine britische Kulturikone. Es ist eines der bekanntesten Symbole des Vereinigten Königreichs und der parlamentarischen Demokratie.</dfn></p>
+		<p align="right">Genau genommen wird nur die riesige Glocke im Innern des Uhrenturms mit einem Gewicht von 13,76 kg als „Big Ben“ bezeichnet. 
+		Besonders spektakulär wirkt der Turm nachts, wenn die vier Zifferblätter angeleuchtet werden. Die Parlamentsgebäude sind zur Besichtigung offen.
+		Die geführten Touren dauern 90 Minuten und kosten für Erwachsene etwa 30 britische Pfund. 
+		Kinder von elf bis 17 Jahren können für circa 15 britische Pfund dabei sein.</p>
+
+	</div>
+</div>   
+
+<div class="imgrow">
+	<div class="pcolumn">
+		<h2><a href="https://www.visitlondon.com/de/sehen-und-erleben/ort/401836-houses-of-parliament" target="_blank">Houses of Parliament</a></h2>
+		<p><dfn>Die gesetzgebende Autorität, der König im Parlament, besteht aus drei getrennten Elementen: dem Monarchen, dem House of Lords und dem House of Commons.</dfn></p>
+		<p>Der Palace of Westminster, deutsch Westminsterpalast, ist der Sitz des britischen Parlaments in London. 
+		Der monumentale, zwischen 1840 und 1870 überwiegend im neugotischen Stil errichtete Gebäudekomplex 
+		wird auch als Houses of Parliament oder New Houses of Parliament bezeichnet. </p>
+	</div>
+	<div class="imgcolumn">
+		<img style="width: 100%;" src="grafiken/Houses of Parliament.jpg" alt="House" width="250" height="200">
+	</div>
+</div>
+
+<div class="imgrow">
+	<div class="imgcolumn">
+		<img style="width: 100%;" src="grafiken/Westminster Abbey.jpg" alt="Abbey" width="250" height="200">
+	</div>
+	<div class="pcolumn">
+		<h2 align="right"><a href="https://www.westminster-abbey.org/?gad_source=1&gad_campaignid=21003207807&gclid=EAIaIQobChMIrfmFhKmTjQMVmpSDBx09gwC2EAAYASAAEgJ89fD_BwE" target="_blank">Westminster Abbey</a></h2>
+		<p align="right"><dfn>Eine beeindruckende Kirche, in der viele britische Monarchen gekrönt und beigesetzt wurden.</dfn></p>
+		<p align="right">Die weltberühmte Westminster Abbey ist seit dem Jahr 1066 das wichtigste geistliche Bauwerk der Krone Englands. 
+		Seit Jahrhunderten werden königliche Häupter in diesem architektonischen Meisterwerk gekrönt, vermählt und betrauert.
+		Ein Besuch der Westminster Abbey führt dich durch die komplette Geschichte des Landes: 
+		Monarchen, Schriftsteller, Wissenschaftler und Politiker sind ein Teil der 1000-jährigen Geschichte der Abtei. 
+		Die Abtei ist ein Höhepunkt einer Reise nach London. Sie ist eine der beliebtesten Londoner Sehenswürdigkeiten.</p>
+	</div>
+</div>   
+
+<div class="imgrow">
+	<div class="pcolumn">
+		<h2 id="lake1"><a href="https://www.visitbritain.com/de/reiseziele/england/lake-district" target="_blank">Lake District</a></h2>
+		<p><dfn>Ein wunderschönes Naturgebiet im Nordwesten Englands, ideal zum Wandern und für malerische Ausblicke</dfn></p>
+		<p>Der Lake District ist eine Region mit gleichnamigem Nationalpark in der nordwestenglischen Grafschaft Cumbria. 
+		Das beliebte Urlaubsziel ist bekannt für seine schmalen Gletscherseen, schroffen Berggipfel und die historische Verbindung zu berühmten englischen Dichtern und Autoren. 
+		Marktstädte wie Kendal, Ambleside und Keswick am malerischen Derwent Water werden gern als Ausgangspunkte zur Erkundung der Region genutzt und sind mit traditionellen 
+		Gasthäusern, Kunstgalerien und Läden für Outdoor-Ausrüstung auf Besucher eingestellt.</p>
+	<h2><a href="https://homeoftravel.de/top-sehenswuerdigkeiten-england/" target="_blank">Und viele mehr</a>...</h2>
+	</div>
+	<div class="imgcolumn">
+		<img style="width: 100%;" src="grafiken/Lake District 1.jpg" alt="Lae" width="250" height="200">
+	</div>
+</div>   
+</body>
+</html> 

@@ -1,0 +1,78 @@
+#background {
+    background-image: url("grafiken/Background.GIF");
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+#title {
+    text-shadow: 5px 5px #000000;;
+}
+#index {
+    color: white;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C8102E;
+    color: black;
+    font-size: 45px;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #C8102E;
+    text-decoration-thickness: 10px;  
+}
+.c {
+    flex: 50%;
+    padding: 1px;
+}
+.row {
+    display: flex;
+}
+body {
+    background-color:  #012169;
+    color: white;
+}
+p, ol, ul {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: large ;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior:smooth;
+}
+:not(.index) a:link, :not(.index) a:visited {
+    color: rgb(163, 192, 255);
+}
+.index a:link {
+    color: white;
+}
+.index a:hover, :not(.index) a:hover {
+    color: #C8102E;
+}
+.index a:visited {
+    color: white;
+}
+.index a:active, :not(.index) a:active {
+    color: rgb(163, 192, 255);
+}
+:target a:link, :target {
+    background-color: rgb(255, 255, 1);
+    color: black;
+    transition: 1.5s ease;     
+}
+body {
+    opacity: 0;
+    margin-top: 50%;
+    animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
