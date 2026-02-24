@@ -1,2 +1,2 @@
 # html-website-project
-index.html file will open the main site of this project directly.
+this project is an information website for tourists about England made with the help of basic html and css knowledge.
